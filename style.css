@@ -1,0 +1,60 @@
+body{
+    text-align: center;
+}
+
+#playerTwoContainer{
+    border: 1px dotted #0080ff;;
+    width: 400px;
+    height: 400px;
+    margin: 0 auto;
+    align-content: center;
+    text-align: center;
+}
+
+#playerTwoContainer div{
+    float: left;
+    height: 132px;
+    width: 131.3px;
+    border: 1px dotted #0080ff;
+}
+
+button{
+    display: inline-block;
+    margin-top: 20px;
+    outline: none;
+    border: none;
+    width: 200px;
+    height: 50px;
+    border-radius: 50px;
+    background: #0080ff;
+    color: #fdfdfd;
+    box-shadow: 2px 3px 10px 2px black;
+}
+button:active{
+    box-shadow: none;
+}
+#heading h2{
+    display: inline-block;
+    font-size: 3em;
+    margin: 0;
+    padding: 0;
+    color: #fc2bd4;
+    margin-bottom: 20px;
+}
+#xturn{
+    float: left;
+    margin-left: -50%;
+    border: 2px solid black;
+    font-size: 1.5em;
+    color: #67b53d;
+    
+}
+#oturn{
+    float: right;
+    margin-right: -50%;
+    border: 2px solid black;
+    font-size: 1.5em;
+    margin-top: -67%;
+    color: #67b53d;
+    
+}
